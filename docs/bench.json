@@ -1,0 +1,13 @@
+{"unit": "microseconds per call", "rows": [
+  {"group": "field", "name": "multiply", "median": 0.018, "p10": 0.016, "p90": 0.019},
+  {"group": "field", "name": "invert", "median": 3.485, "p10": 3.175, "p90": 3.618},
+  {"group": "hash", "name": "SHA-512, 1 KiB", "median": 3.174, "p10": 2.893, "p90": 3.293},
+  {"group": "group", "name": "[k]B constant time", "median": 46.675, "p10": 42.362, "p90": 60.229},
+  {"group": "group", "name": "[k]B double-and-add", "median": 59.508, "p10": 53.453, "p90": 103.208},
+  {"group": "group", "name": "[a]A + [b]B (verify)", "median": 55.453, "p10": 49.776, "p90": 66.017},
+  {"group": "ed25519", "name": "key generation", "median": 52.012, "p10": 50.043, "p90": 62.625},
+  {"group": "ed25519", "name": "sign (64-byte message)", "median": 52.676, "p10": 50.766, "p90": 56.412},
+  {"group": "ed25519", "name": "verify", "median": 60.053, "p10": 57.886, "p90": 64.939},
+  {"group": "ed25519", "name": "verify_strict", "median": 65.089, "p10": 62.549, "p90": 70.987},
+  {"group": "ed25519", "name": "verify_cofactored", "median": 62.580, "p10": 59.634, "p90": 86.175}
+]}

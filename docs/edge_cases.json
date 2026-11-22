@@ -1,0 +1,23 @@
+{
+  "modes": ["verify", "verify_strict", "verify_cofactored"],
+  "speccheck": {
+    "verify": ["V", "V", "V", "V", "X", "X", "X", "X", "X", "X", "X", "X"],
+    "verify_strict": ["X", "X", "X", "V", "X", "X", "X", "X", "X", "X", "X", "X"],
+    "verify_cofactored": ["V", "V", "V", "V", "V", "V", "X", "X", "X", "X", "X", "X"]
+  },
+  "wycheproof": [
+    {"flag": "CompressedSignature", "expected": "invalid", "total": 4, "accepted": [0, 0, 0]},
+    {"flag": "InvalidEncoding", "expected": "invalid", "total": 22, "accepted": [0, 0, 0]},
+    {"flag": "InvalidKtv", "expected": "invalid", "total": 1, "accepted": [0, 0, 0]},
+    {"flag": "InvalidSignature", "expected": "invalid", "total": 20, "accepted": [0, 0, 0]},
+    {"flag": "Ktv", "expected": "valid", "total": 38, "accepted": [38, 38, 38]},
+    {"flag": "MixedOrderPublicKey", "expected": "acceptable", "total": 21, "accepted": [21, 21, 21]},
+    {"flag": "MixedOrderPublicKey", "expected": "invalid", "total": 1, "accepted": [0, 0, 0]},
+    {"flag": "SignatureMalleability", "expected": "invalid", "total": 8, "accepted": [0, 0, 0]},
+    {"flag": "SignatureWithGarbage", "expected": "invalid", "total": 5, "accepted": [0, 0, 0]},
+    {"flag": "SmallOrderPublicKey", "expected": "acceptable", "total": 8, "accepted": [8, 0, 8]},
+    {"flag": "TinkOverflow", "expected": "valid", "total": 32, "accepted": [32, 32, 32]},
+    {"flag": "TruncatedSignature", "expected": "invalid", "total": 3, "accepted": [0, 0, 0]},
+    {"flag": "Valid", "expected": "valid", "total": 47, "accepted": [47, 47, 47]}
+  ]
+}

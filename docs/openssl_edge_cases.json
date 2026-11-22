@@ -1,0 +1,71 @@
+{
+  "openssl": "OpenSSL 4.0.2 25 Aug 2026",
+  "speccheck": [
+    "V",
+    "V",
+    "V",
+    "V",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "V"
+  ],
+  "wycheproof_rejected_accepted": {
+    "Valid|valid": [
+      0,
+      47
+    ],
+    "InvalidSignature|invalid": [
+      20,
+      0
+    ],
+    "TruncatedSignature|invalid": [
+      3,
+      0
+    ],
+    "SignatureWithGarbage|invalid": [
+      5,
+      0
+    ],
+    "CompressedSignature|invalid": [
+      4,
+      0
+    ],
+    "InvalidEncoding|invalid": [
+      22,
+      0
+    ],
+    "SignatureMalleability|invalid": [
+      8,
+      0
+    ],
+    "Ktv|valid": [
+      0,
+      38
+    ],
+    "InvalidKtv|invalid": [
+      1,
+      0
+    ],
+    "TinkOverflow|valid": [
+      0,
+      32
+    ],
+    "SmallOrderPublicKey|acceptable": [
+      0,
+      8
+    ],
+    "MixedOrderPublicKey|acceptable": [
+      0,
+      21
+    ],
+    "MixedOrderPublicKey|invalid": [
+      1,
+      0
+    ]
+  }
+}

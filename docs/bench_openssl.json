@@ -1,0 +1,9 @@
+{
+  "openssl": "OpenSSL 4.0.2 25 Aug 2026",
+  "unit": "microseconds per call (median)",
+  "rows": {
+    "key generation": 35.1155,
+    "sign (64-byte message)": 40.6085,
+    "verify": 112.3115
+  }
+}

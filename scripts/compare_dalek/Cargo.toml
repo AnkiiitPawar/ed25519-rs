@@ -1,0 +1,15 @@
+# A separate crate, not part of the library or its CI: it fetches ed25519-dalek
+# from crates.io only to give the benchmark figure a reference point.
+#
+#     cd scripts/compare_dalek && cargo run --release   # writes ../../docs/bench_dalek.json
+
+[package]
+name = "compare-dalek"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+ed25519-dalek = "=2.2.0"
+
+[workspace]

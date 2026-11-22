@@ -1,0 +1,10 @@
+{
+  "library": "ed25519-dalek 2.2.0 (default features)",
+  "unit": "microseconds per call (median)",
+  "rows": {
+    "key generation": 14.964,
+    "sign (64-byte message)": 16.041,
+    "verify": 40.505,
+    "verify_strict": 46.859
+  }
+}
