@@ -221,6 +221,12 @@ Built and tested with Rust 1.97, which CI pins.
 
 ## Licence
 
-MIT for the code. The test vectors keep their own terms. The SUPERCOP
-vectors come from public-domain software. The Wycheproof and speccheck vectors
-are Apache-2.0, with licence texts in `tests/data/`.
+Copyright (c) 2026 Ankit Pawar. All Rights Reserved.
+
+This repository is public so that the work can be read and evaluated, but it is not open source. Using, copying, modifying, redistributing or commercially exploiting any part of it requires prior written permission. This does not affect what applicable law allows without permission, or viewing and forking the repository on GitHub under GitHub's Terms of Service. The full terms are in [LICENSE](LICENSE).
+
+Third-party test vectors keep their own terms and are not covered by this notice. The Wycheproof and ed25519-speccheck vectors are Apache-2.0, with their licence texts in `tests/data/`. The SUPERCOP vectors come from public-domain software. `tests/data/README.md` lists each file's source.
+
+Commits up to and including `49cbea7` were released under the MIT License, and copies obtained under those terms keep them.
+
+For licensing or collaboration, email ankitpawar0007x@gmail.com or visit [ankitinorbit.com](https://ankitinorbit.com).
